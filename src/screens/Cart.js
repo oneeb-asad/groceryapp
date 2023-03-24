@@ -66,7 +66,7 @@ const Cart = props => {
       <View style={{flex: 0.15, margin: 14}}>
         <TouchableOpacity
           onPress={() =>
-            Alert.alert('Checkout!', 'Order Placed', [
+            Alert.alert('Check-out!', 'Order Placed', [
               {
                 text: 'OK',
                 onPress: () => {
